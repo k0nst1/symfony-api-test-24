@@ -63,7 +63,8 @@ Die Datenbank wird mit docker-compose automatisch erstellt und mit Testdaten bef
 Symfony sollte nun via <http://localhost:8080> und Api Platform unter <http://localhost:8080/api>  erreichbar sein.
 
 ### Commits
-Bitte mache in regelmäßigen Abständen Commits deiner Arbeit, damit wir den Fortschritt nach verfolgen können, wenn du den PR aufmachst.
+Bitte mache in regelmäßigen Abständen Commits deiner Arbeit, damit wir den Fortschritt nach verfolgen können. 
+Wenn du fertig bist, erstelle einen Pull Request in deinem Fork.
 
 ## Aufgabenstellung
 Es soll eine Backend-Api erstellt werden, mit der die Kundendaten eines Fondsvermittlers ausgelesen, aktualisiert sowie neu erstellt und gelöscht werden können. Die Ausgabe soll im JSON(+ld) Format erfolgen.
