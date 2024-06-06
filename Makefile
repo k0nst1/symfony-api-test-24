@@ -29,7 +29,7 @@ docker-stop:
 	docker compose down -t0
 
 composer:                                                                      ## install composer deps
-	$(COMPOSER_CMD) install
+	$(COMPOSER_CMD) install --ignore-platform-reqs
 
 fixtures:                                                                       ## load fixtures
 	$(SYMFONY_CMD) doctrine:fixtures:load -n -vv

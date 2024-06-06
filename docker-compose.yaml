@@ -1,5 +1,3 @@
-version:  '3.5'
-
 networks:
   saf_api:
     name: symfony_api_foo
