@@ -13,7 +13,6 @@ use Symfony\Component\Validator\Constraints as Assert;
 #[ORM\Entity(repositoryClass: AdresseRepository::class)]
 #[ORM\Table(name: 'std.adresse')]
 #[ApiResource]
-#[Get(uriTemplate: 'kunden/{id}/adressen/details', uriVariables: ['id' => new Link(fromProperty: 'adresse', fromClass: KundenAdresse::class)])]
 class Adresse
 {
     #[ORM\Id]
